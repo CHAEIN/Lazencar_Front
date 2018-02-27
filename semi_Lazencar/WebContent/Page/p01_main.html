@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lazencar</title>
+
+<style> 
+
+/*로고*/
+#rightBanner{
+float: left;
+}
+
+/*탑메뉴*/
+#topMenu { 
+height: 40px; 
+width: 1000px; 
+margin-right: auto;
+margin-left: auto;
+margin-top: 40px;
+} 
+#topMenu ul { 
+list-style-type: none;
+margin: 0px; 
+padding: 0px;
+}
+#topMenu ul li {
+background-color: white;
+float: left; 
+line-height: 30px;
+vertical-align: middle;
+text-align: center;
+position: relative;
+margin-left: 30p%
+}
+.menuLink, .submenuLink {
+text-decoration:none;
+display: block;
+width: 300px;
+font-size: 12px;
+font-weight: bold;
+font-family: "Trebuchet MS", Dotum;
+}
+.menuLink {
+color: black; } 
+.topMenuLi:hover .menuLink {
+color: white;
+background-color: #ffd700;
+} 
+.submenuLink {
+color: #ffd700;
+background-color: white;
+} 
+/* 좀 더 긴 메뉴 스타일 설정 */
+.longLink {  width: 300px;} 
+.submenu {
+position: absolute;
+height: 0px;
+overflow: hidden;
+transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(기본) */ 
+-webkit-transition: height .2s; /* (구버전 크롬/사파리) */ 
+-moz-transition: height .2s; /* (구버전 파이어폭스) */ 
+-o-transition: height .2s; /* (구버전 오페라) */ 
+} 
+.topMenuLi:hover .submenu {height: 93px;} 
+.submenuLink:hover {
+color: white;
+background-color: #ffd700;
+} 
+
+/*로그인 버튼*/
+#rightMenu{
+	float: right;
+}
+
+
+
+.blinking{
+	-webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+</style>
+
+
+
+
+</head>
+
+
+
+<body>
+
+<a href="#">
+<img id="rightBanner" width="150px" height="100px"
+src="./img/logo_02.jpg"/>
+</a>
+<!--
+onmouseover="this.src='C:\Users\mycom\eclipse-workspace\aa\WebContent\df\logo_1.jpg'" 
+onmouseout="this.src='C:\Users\mycom\eclipse-workspace\aa\WebContent\df\logo_2.jpg'" 
+ -->
+ 
+<nav id="topMenu" > 
+	<ul> 
+				<li class="topMenuLi"> 
+		<a class="menuLink" href="#">LaZencar 소개</a> 
+		<ul class="submenu"> 
+			<li><a href="#" class="submenuLink longLink">Lazencar란?</a></li> 
+			<li><a href="#" class="submenuLink longLink">이용안내</a></li> 
+			<li><a href="#" class="submenuLink longLink">요금안내</a></li> 
+			<li><a href="#" class="submenuLink longLink">후기</a></li> 
+			<li><a href="#" class="submenuLink longLink">공지사항</a></li> 
+		</ul> 
+			</li>
+			
+						<li class="topMenuLi"> 
+		<a class="menuLink" href="#">서비스/혜택</a> 
+		<ul class="submenu"> 
+			<li><a href="#" class="submenuLink longLink">특가상품</a></li> 
+			<li><a href="#" class="submenuLink longLink">쿠폰받기</a></li> 
+		</ul> 
+			</li>
+		
+					<li class="topMenuLi"> 
+		<a class="menuLink" href="#">고객센터</a> 
+		<ul class="submenu"> 
+			<li><a href="#" class="submenuLink longLink">1:1 문의</a></li> 
+			<li><a href="#" class="submenuLink longLink">자주찾는 질문</a></li> 
+		</ul> 
+			</li>
+	</ul> 
+</nav>
+
+<div id="rightMenu">
+	<input type="button" value="로그인 º 회원가입" name="login" 
+onclick="location.href='#'">
+<!-- 	<input type="button" value="예약하기" name="whiw" onclick="location.href='#'"> -->
+	<span class="image blinking"> 예약하기 </span>
+</div>
+
+
+</body>
+</html>
