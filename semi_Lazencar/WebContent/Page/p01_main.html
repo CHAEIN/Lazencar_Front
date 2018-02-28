@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Lazencar</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="http://malsup.giyhub.com/jquery.cycle2.js"></script>
 
 <style> 
 
@@ -13,11 +15,13 @@ float: left;
 
 /*탑메뉴*/
 #topMenu { 
-height: 40px; 
-width: 1000px; 
+height: 4em; 
+width: 10em; 
 margin-right: auto;
 margin-left: auto;
 margin-top: 40px;
+min-width: 800px;
+min-height: 40px;
 } 
 #topMenu ul { 
 list-style-type: none;
@@ -149,6 +153,17 @@ onmouseout="this.src='C:\Users\mycom\eclipse-workspace\aa\WebContent\df\logo_2.j
 onclick="location.href='#'">
 <!-- 	<input type="button" value="예약하기" name="whiw" onclick="location.href='#'"> -->
 	<span class="image blinking"> 예약하기 </span>
+</div>
+
+<div class = "cycle-slide" 
+cycle-slide data-cycle-loader="wait" 
+data-cycle-timeout=1000
+>
+
+<img src="./img/11.jpg">
+<img src="./img/22.jpg">
+
+
 </div>
 
 
