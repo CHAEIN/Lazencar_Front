@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Lazencar : 신뢰와 믿음을 주는 고품격 카셰어링</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <style type="text/css">
 
 *{
@@ -73,7 +74,9 @@ font-weight: bold;
 font-family: "Trebuchet MS", Dotum;
 }
 .menuLink {
-color: black; } 
+color: black; 
+z-index: 999;
+} 
 .topMenuLi:hover .menuLink {
 color: white;
 background-color: #ffd700;
@@ -94,7 +97,7 @@ transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되�
 -o-transition: height .2s; /* (구버전 오페라) */ 
 } 
 /* .topMenuLi:hover .submenu {height: 93px;}  */
-#topMenu:hover .topMenuLi .submenu {height: 93px;}
+#topMenu:hover .topMenuLi .submenu {height: 180px;}
 .submenu {background:white;}
 .submenuLink:hover {
 color: white;
@@ -127,13 +130,35 @@ background-color: #ffd700;
 }
 
 .container{
-	background: pink;
+	border : 1px solid pink;
+	margin-top: 5%;
+	width: 100%;
 }
 
-.content{
-	float: right;
-	width: 620px;
+.content{ 
+ 	width: 620px; 
 
+ } 
+#sliderbox{
+	width: 1200px;
+	height: 800px; 
+	border: 1px solid pink;
+	
+	position: relative;
+  	overflow: hidden;
+}
+#slider li{
+	position: absolute;
+	left:300px;
+}
+#slider {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#slider li img{
+	width: 1200px;
+	height: 800px;
 }
 .footer{
 	text-align: right;
@@ -172,6 +197,7 @@ background-color: #ffd700;
 			<li><a href="#" class="submenuLink longLink">요금안내</a></li> 
 			<li><a href="#" class="submenuLink longLink">후기</a></li> 
 			<li><a href="#" class="submenuLink longLink">공지사항</a></li> 
+			<li><a href="#" class="submenuLink longLink">위치</a></li> 
 		</ul> 
 			</li>
 			
@@ -201,29 +227,47 @@ onclick="location.href='#'">
 </div>
 		
 	</div><!-- header end -->
-	
-		<div class="container">
+		
+		<div class="clear"></div>
+	<div class="container">
 
 		<div class="content">
-		<h3>Lorem ipsum</h3>
-			<p>dolor sit amet, consectetur adipiscing elit. Duis auctor mollis tellus, ut feugiat nisl sollicitudin nec. Praesent finibus nisi sed magna ultricies, a accumsan dolor auctor. Donec tempus ante ac dolor lacinia sodales. Aenean consectetur massa vel gravida porta. Mauris posuere lacus ac convallis malesuada. Donec rutrum dolor sit amet orci vestibulum tempor. Pellentesque sit amet elit non nulla tincidunt commodo non sit amet velit. Ut hendrerit massa auctor justo lacinia imperdiet. Integer porta purus in tempus vulputate. Curabitur congue, ex vel aliquet malesuada, lacus lacus vehicula diam, ac suscipit felis purus non neque. Cras fermentum, leo ac imperdiet aliquet, dolor orci vestibulum libero, ut commodo elit augue vitae metus. Nullam dictum ac dui non semper. Proin accumsan nisi non tristique dapibus. Nunc egestas nunc nisl, eget pulvinar dolor commodo quis. Fusce tempus in neque id pretium. Proin in tellus id justo pellentesque tincidunt.</p>
-		<h3>Proin consequat</h3>
-			<p>lorem nec faucibus sodales, felis massa imperdiet dui, id sollicitudin nibh enim eget purus. Morbi at fermentum leo. Maecenas sollicitudin auctor dignissim. Maecenas viverra dui nec dui posuere, in pretium magna rhoncus. Aliquam varius maximus sem in faucibus. Fusce id feugiat ex. Fusce nisi odio, pharetra vitae egestas vel, gravida quis nunc. Nunc mollis malesuada ipsum, a varius metus ultrices sollicitudin. Phasellus orci dui, scelerisque id lacus eget, imperdiet fringilla nisi.</p>
-		<h3>Nunc ullamcorper</h3> 
-			<p>lacinia erat in egestas. Etiam ornare tortor magna, non eleifend nisi malesuada eget. Curabitur tincidunt augue odio, viverra feugiat mauris varius at. Cras pretium est ac est vestibulum, a semper sem tempor. Aliquam varius dolor quis leo vulputate, eget pulvinar odio laoreet. Mauris odio sem, ultricies sit amet nibh id, sodales efficitur ante. Etiam interdum tellus non nibh tempor, eget convallis purus auctor.</p>
-		<h3>Curabitur</h3> 
-			<p>at libero nulla. Vivamus finibus facilisis tellus, mattis convallis justo tristique sollicitudin. Donec eu dui rutrum, eleifend tellus ac, laoreet diam. Aenean scelerisque tincidunt lectus vel congue. Aenean sit amet libero mattis nisi hendrerit ultrices ut sit amet ex. Fusce ac mattis ex, ac porttitor tortor. Donec auctor quam sapien, in dapibus tellus consectetur nec. Donec interdum mi ipsum, eu pharetra nisi dignissim non. Sed molestie tortor ligula, eu porta ex vestibulum ut. Cras eget nunc eu ex facilisis vestibulum quis id turpis.</p>
-		<h3>Sed</h3> 
-			<p>et odio dapibus, consectetur quam non, posuere sapien. Suspendisse rutrum lacus eu sollicitudin tincidunt. Sed eu sollicitudin leo, ac facilisis lectus. Fusce lobortis sapien vel eros feugiat accumsan. Vivamus sed elementum lorem. Duis elementum arcu a nisi aliquet, nec auctor enim imperdiet. Vestibulum sed fringilla neque, sit amet tincidunt enim. Duis diam elit, posuere ac velit ut, tempus convallis augue. Morbi felis dolor, lacinia vel purus nec, lacinia mollis eros. In at lacus in arcu vulputate suscipit eu vitae ipsum. Integer feugiat felis mi, nec condimentum magna faucibus vitae.</p>
+			<div id="sliderbox">
+				<ul id="slider">
+					<li><img src="./img/img_01.gif"></li>
+					<li><img src="./img/img_02.gif"></li>
+					<li><img src="./img/img_03.gif"></li>
+					<li><img src="./img/img_04.gif"></li>
+					<li><img src="./img/img_05.gif"></li>
+				</ul>
+			</div><!-- sliderbox end -->
 		</div><!-- content end -->
 
-		</div><!-- container end -->
+	</div><!-- container end -->
 		
 	<div class="clear"></div>
 	<div class="footer">
 	&copy; Lazencar
 	</div><!-- footer end -->
 </div><!-- wrapper end -->
+
+<!-- 슬라이드 코드 -->
+<script type="text/javascript">
+$("#slider li:first-child").css("left",0);
+
+var curSlide = 0;
+var $slide_list = $("#slider li");
+$("#sliderbox").on("click", function(){
+	var nextSlide = (curSlide+1) % $slide_list.length;
+	
+	$slide_list.eq(nextSlide).css("left","1200px");
+	$slide_list.eq(curSlide).animate({"left":"-=1200px"});
+	$slide_list.eq(nextSlide).animate({"left":"-=1200px"});
+	curSlide = ++curSlide;
+});
+</script>
+
+
 
 </body>
 </html>
