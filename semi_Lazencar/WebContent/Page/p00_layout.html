@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lazencar : 신뢰와 믿음을 주는 고품격 카셰어링</title>
+<style type="text/css">
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+	font-family: "맑은고딕","굴림", gulim, arial, helvertica, sans-serif;
+	font-size: 20px;
+	line-height: 1.8;
+}
+
+.wrapper {
+	width: 1300px;
+	margin: 0 auto;
+	border: 1px solid pink;
+}
+
+.header {
+font-weight: bold;
+padding: 10px 30px;
+}
+
+.logo{
+	width: 150px;
+	height: 100px;
+	position : absolute;
+	/*이거 안하면 로고랑 문자열이 베이스 라인(아래쪽)을 기준으로 정렬된다.*/
+	
+	background-image: url('./img/11.jpg');
+	background-repeat: no-repeat;	
+	/*logo영역안에서 배경사진이 패턴으로 들어가지 않게 적용*/
+	background-size: cover;
+	/*contain 높이 맞추기 cover 가로 맞추기*/
+}
+/*탑메뉴*/
+#topMenu { 
+height: 40px; 
+width: 60%; 
+float : left;
+margin-left : 20%;
+margin-top: 40px;
+min-width: 500px;
+min-height: 40px;
+} 
+#topMenu ul { 
+list-style-type: none;
+margin: 0px; 
+padding: 0px;
+}
+#topMenu ul li {
+background-color: white;
+float: left; 
+line-height: 30px;
+vertical-align: middle;
+text-align: center;
+position: relative;
+margin-left: 30p%;
+}
+.menuLink, .submenuLink {
+text-decoration:none;
+display: block;
+width: 200px;
+font-size: 12px;
+font-weight: bold;
+font-family: "Trebuchet MS", Dotum;
+}
+.menuLink {
+color: black; 
+font-size: 1.2em;} 
+.topMenuLi:hover .menuLink {
+color: white;
+background-color: #ffd700;
+} 
+.submenuLink {
+color: #ffd700;
+background-color: white;
+} 
+/* 좀 더 긴 메뉴 스타일 설정 */
+.longLink {  width: 200px;} 
+.submenu {
+position: absolute;
+height: 0px;
+overflow: hidden;
+transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(기본) */ 
+-webkit-transition: height .2s; /* (구버전 크롬/사파리) */ 
+-moz-transition: height .2s; /* (구버전 파이어폭스) */ 
+-o-transition: height .2s; /* (구버전 오페라) */ 
+} 
+/*#topMenu:hover .topMenuLi:hover .submenu {height: 180px;}  		한 메뉴당 하위메뉴 하나만*/
+#topMenu:hover .topMenuLi .submenu {height: 180px;}		/*메뉴 전체 드롭다운 	헤더 전체 드롭다운은 어떻게..*/
+.submenu {background:white;}
+.submenuLink:hover {
+color: white;
+background-color: #ffd700;
+} 
+
+/*로그인 버튼*/
+.rightMenu{
+	float: right;
+	width: 200px;
+}
+
+.blinking{
+	-webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+    font-size: 15px;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.container{
+	border : 1px solid pink;
+	margin-top: 5%;
+	width: 100%;
+}
+.nav{
+	float: left;
+	margin-left: 5%;
+	width: 20%;
+}
+
+.nav-list{
+	list-style-type: none;
+	
+	
+	background-color: #999;
+	
+	padding: 10px;
+	margin: 10px;
+	line-height: 30px;
+	
+}
+
+.nav-item{
+
+}
+
+.content{
+	float:right;
+	margin-right: 20%;
+	width: 620px;
+
+}
+.footer{
+	text-align: right;
+	font-size: 15px;
+/* 	margin: 20px; */
+	padding: 20px;
+	/*내용물을 안쪽으로 몰아준다. 패딩은 경계선과 내용물 사이의 거리를 늘리면서 경계선을 바깥으로 몰아내서 본문과 경계선이 쿹어보이고
+	마진은 경계선과 바깥사이의 거리라서 경계선과 내용물이 붙어보이고 본문과 멀리 떨어져보인다.*/
+	border-top: 1px solid gray;
+}
+
+.clear{
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+	/*실수로 텍스트가 들어가도 내용물이 보이지 않게 된다.*/
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="header">
+		<div class="logo"></div>
+		
+		
+<nav id="topMenu" > 
+	<ul> 
+				<li class="topMenuLi"> 
+		<a class="menuLink" href="#">LaZencar 소개</a> 
+		<ul class="submenu"> 
+			<li><a href="#" class="submenuLink longLink">Lazencar란?</a></li> 
+			<li><a href="#" class="submenuLink longLink">이용안내</a></li> 
+			<li><a href="#" class="submenuLink longLink">요금안내</a></li> 
+			<li><a href="#" class="submenuLink longLink">후기</a></li> 
+			<li><a href="#" class="submenuLink longLink">공지사항</a></li> 
+			<li><a href="#" class="submenuLink longLink">위치</a></li> 
+		</ul> 
+			</li>
+			
+						<li class="topMenuLi"> 
+		<a class="menuLink" href="#">서비스/혜택</a> 
+		<ul class="submenu"> 
+			<li><a href="#" class="submenuLink longLink">특가상품</a></li> 
+			<li><a href="#" class="submenuLink longLink">쿠폰받기</a></li> 
+		</ul> 
+			</li>
+		
+					<li class="topMenuLi"> 
+		<a class="menuLink" href="#">고객센터</a> 
+		<ul class="submenu"> 
+			<li><a href="#" class="submenuLink longLink">1:1 문의</a></li> 
+			<li><a href="#" class="submenuLink longLink">자주찾는 질문</a></li> 
+		</ul> 
+			</li>
+	</ul> 
+</nav>
+
+<div class="rightMenu">
+	<input type="button" value="로그인 º 회원가입" name="login" 
+onclick="location.href='#'">
+<!-- 	<input type="button" value="예약하기" name="whiw" onclick="location.href='#'"> -->
+	<div class="image blinking"> 예약하기 </div>
+</div>
+		
+	</div><!-- header end -->
+		
+		<div class="clear"></div>
+	<div class="container">
+	
+		<div class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="./NewFile01.html" class="nav-link">메뉴 1</a></li>
+					<li class="nav-item"><a href="./NewFile01.html" class="nav-link">메뉴 2</a></li>
+					<li class="nav-item"><a href="./NewFile01.html" class="nav-link">메뉴 2</a></li>
+				</ul>
+
+		</div><!-- nav end -->
+		
+		<div class="content">
+			<h3>Lorem ipsum</h3>
+				<p>dolor sit amet, consectetur adipiscing elit. Duis auctor mollis tellus, ut feugiat nisl sollicitudin nec. Praesent finibus nisi sed magna ultricies, a accumsan dolor auctor. Donec tempus ante ac dolor lacinia sodales. Aenean consectetur massa vel gravida porta. Mauris posuere lacus ac convallis malesuada. Donec rutrum dolor sit amet orci vestibulum tempor. Pellentesque sit amet elit non nulla tincidunt commodo non sit amet velit. Ut hendrerit massa auctor justo lacinia imperdiet. Integer porta purus in tempus vulputate. Curabitur congue, ex vel aliquet malesuada, lacus lacus vehicula diam, ac suscipit felis purus non neque. Cras fermentum, leo ac imperdiet aliquet, dolor orci vestibulum libero, ut commodo elit augue vitae metus. Nullam dictum ac dui non semper. Proin accumsan nisi non tristique dapibus. Nunc egestas nunc nisl, eget pulvinar dolor commodo quis. Fusce tempus in neque id pretium. Proin in tellus id justo pellentesque tincidunt.</p>
+			<h3>Proin consequat</h3>
+				<p>lorem nec faucibus sodales, felis massa imperdiet dui, id sollicitudin nibh enim eget purus. Morbi at fermentum leo. Maecenas sollicitudin auctor dignissim. Maecenas viverra dui nec dui posuere, in pretium magna rhoncus. Aliquam varius maximus sem in faucibus. Fusce id feugiat ex. Fusce nisi odio, pharetra vitae egestas vel, gravida quis nunc. Nunc mollis malesuada ipsum, a varius metus ultrices sollicitudin. Phasellus orci dui, scelerisque id lacus eget, imperdiet fringilla nisi.</p>
+			<h3>Nunc ullamcorper</h3> 
+				<p>lacinia erat in egestas. Etiam ornare tortor magna, non eleifend nisi malesuada eget. Curabitur tincidunt augue odio, viverra feugiat mauris varius at. Cras pretium est ac est vestibulum, a semper sem tempor. Aliquam varius dolor quis leo vulputate, eget pulvinar odio laoreet. Mauris odio sem, ultricies sit amet nibh id, sodales efficitur ante. Etiam interdum tellus non nibh tempor, eget convallis purus auctor.</p>
+			<h3>Curabitur</h3> 
+				<p>at libero nulla. Vivamus finibus facilisis tellus, mattis convallis justo tristique sollicitudin. Donec eu dui rutrum, eleifend tellus ac, laoreet diam. Aenean scelerisque tincidunt lectus vel congue. Aenean sit amet libero mattis nisi hendrerit ultrices ut sit amet ex. Fusce ac mattis ex, ac porttitor tortor. Donec auctor quam sapien, in dapibus tellus consectetur nec. Donec interdum mi ipsum, eu pharetra nisi dignissim non. Sed molestie tortor ligula, eu porta ex vestibulum ut. Cras eget nunc eu ex facilisis vestibulum quis id turpis.</p>
+			<h3>Sed</h3> 
+				<p>et odio dapibus, consectetur quam non, posuere sapien. Suspendisse rutrum lacus eu sollicitudin tincidunt. Sed eu sollicitudin leo, ac facilisis lectus. Fusce lobortis sapien vel eros feugiat accumsan. Vivamus sed elementum lorem. Duis elementum arcu a nisi aliquet, nec auctor enim imperdiet. Vestibulum sed fringilla neque, sit amet tincidunt enim. Duis diam elit, posuere ac velit ut, tempus convallis augue. Morbi felis dolor, lacinia vel purus nec, lacinia mollis eros. In at lacus in arcu vulputate suscipit eu vitae ipsum. Integer feugiat felis mi, nec condimentum magna faucibus vitae.</p>
+		</div><!-- content end -->
+
+	</div><!-- container end -->
+		
+	<div class="clear"></div>
+	<div class="footer">
+	&copy; Lazencar
+	</div><!-- footer end -->
+</div><!-- wrapper end -->
+
+</body>
+</html>
