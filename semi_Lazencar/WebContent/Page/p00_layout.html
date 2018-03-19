@@ -112,56 +112,6 @@ a.nvalinks-rev:hover {
 	text-decoration: none
 }
 
-.navigation {
-	overflow: hidden;
-	height: 80px;
-	padding-left: 197px
-}
-
-.navigation li {
-	float: left;
-	text-align: center
-}
-
-.navigation li a {
-	display: block;
-	margin: 0 27px;
-	height: 80px;
-	line-height: 78px;
-	font-size: 18px;
-	letter-spacing: -0.03em;
-	color: #fff
-}
-
-.navi-sublist {
-	display: none;
-	z-index: 9000;
-	position: absolute;
-	padding-top: 19px
-}
-
-.navi-sublist.on {
-	display: block
-}
-
-.navi-sublist li {
-	float: none;
-	text-align: left
-}
-
-.navi-sublist li a {
-	display: block;
-	width: auto;
-	height: auto;
-	line-height: 34px;
-	font-size: 16px;
-	color: #3c3c3c;
-	letter-spacing: -0.03em
-}
-
-.navi-sublist li a:hover {
-	color: #00b956
-}
 
 #header.on .hgroup {
 	height: 79px;
@@ -291,6 +241,7 @@ a.nvalinks-rev:hover {
 	display: block;
 	clear: both
 } /*대체 뭘하려는걸까*/
+
 .sidebar {
 	float: left;
 	width: 240px;
@@ -330,13 +281,13 @@ a.nvalinks-rev:hover {
 	cursor: pointer
 }
 
-.leftMenu li a.on {
+.leftMenu li a:hover {
 	margin-top: -1px;
 	border-bottom-color: #f1c40f;
 	background-color: #f1c40f
 }
 
-.leftMenu li:first-child a.on {
+.leftMenu li:first-child a:hover {
 	margin-top: 0
 }
 
@@ -344,7 +295,7 @@ a.nvalinks-rev:hover {
 	border-top: 1px solid #e2e2e2
 }
 
-.leftMenu li.top a.on {
+.leftMenu li.top a:hover {
 	border-top-color: #f1c40f
 }
 
@@ -358,7 +309,7 @@ a.nvalinks-rev:hover {
 	background: url(./images/icons/left_menu_off.gif) no-repeat right center
 }
 
-.leftMenu li a.on span {
+.leftMenu li a:hover span {
 	background: url(./images/icons/left_menu_on.png) no-repeat right center;
 	color: #fff
 }
@@ -518,15 +469,19 @@ a.nvalinks-rev:hover {
 
 
 
+
+
+
 /*탑메뉴*/
 #topMenu { 
 height: 40px; 
 width: 60%; 
 float : left;
 margin-left : 20%;
-margin-top: 40px;
+margin-top: 25px;
 min-width: 500px;
 min-height: 40px;
+color: black;
 } 
 #topMenu ul { 
 list-style-type: none;
@@ -536,17 +491,19 @@ padding: 0px;
 #topMenu ul li {
 background-color: white;
 float: left; 
-line-height: 30px;
+line-height: 20px;
 vertical-align: middle;
 text-align: center;
 position: relative;
 margin-left: 30p%;
+font-size: 15px;
 }
 .menuLink, .submenuLink {
 text-decoration:none;
 display: block;
 width: 200px;
-font-size: 12px;
+color : black;
+font-size: 15px;
 font-weight: bold;
 font-family: "Trebuchet MS", Dotum;
 }
@@ -556,10 +513,10 @@ font-size: 1.2em;}
 
 .topMenuLi:hover .menuLink {
 color: white;
-background-color: #ffd700;
+background-color: #f1c40f;
 } 
 .submenuLink {
-color: #ffd700;
+color: #f1c40f;
 background-color: white;
 } 
 /* 좀 더 긴 메뉴 스타일 설정 */
@@ -573,12 +530,12 @@ transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되�
 -moz-transition: height .2s; /* (구버전 파이어폭스) */ 
 -o-transition: height .2s; /* (구버전 오페라) */ 
 } 
-/*#topMenu:hover .topMenuLi:hover .submenu {height: 180px;}  		한 메뉴당 하위메뉴 하나만*/
-#topMenu:hover .topMenuLi .submenu {height: 180px;}		/*메뉴 전체 드롭다운 	헤더 전체 드롭다운은 어떻게..*/
+#topMenu:hover .topMenuLi:hover .submenu {height: 180px;}  		/* 한 메뉴당 하위메뉴 하나만*/ 
+/* #topMenu:hover .topMenuLi .submenu {height: 180px;}		/*메뉴 전체 드롭다운 	헤더 전체 드롭다운은 어떻게..*/ 
 .submenu {background:white;}
 .submenuLink:hover {
 color: white;
-background-color: #ffd700;
+background-color: #f1c40f;
 } 
 
 
@@ -1834,8 +1791,6 @@ button::-moz-focus-inner {
 					<li><a href="#" class="submenuLink longLink">Lazencar란?</a></li> 
 					<li><a href="#" class="submenuLink longLink">이용안내</a></li> 
 					<li><a href="#" class="submenuLink longLink">요금안내</a></li> 
-					<li><a href="#" class="submenuLink longLink">후기</a></li> 
-					<li><a href="#" class="submenuLink longLink">공지사항</a></li> 
 					<li><a href="#" class="submenuLink longLink">위치</a></li> 
 				</ul> 
 					</li>
@@ -1845,6 +1800,7 @@ button::-moz-focus-inner {
 				<ul class="submenu"> 
 					<li><a href="#" class="submenuLink longLink">특가상품</a></li> 
 					<li><a href="#" class="submenuLink longLink">쿠폰받기</a></li> 
+					<li><a href="#" class="submenuLink longLink">후기</a></li> 
 				</ul> 
 					</li>
 				
@@ -1853,6 +1809,7 @@ button::-moz-focus-inner {
 				<ul class="submenu"> 
 					<li><a href="#" class="submenuLink longLink">1:1 문의</a></li> 
 					<li><a href="#" class="submenuLink longLink">자주찾는 질문</a></li> 
+					<li><a href="#" class="submenuLink longLink">공지사항</a></li> 
 				</ul> 
 					</li>
 			</ul> 

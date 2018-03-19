@@ -112,56 +112,6 @@ a.nvalinks-rev:hover {
 	text-decoration: none
 }
 
-.navigation {
-	overflow: hidden;
-	height: 80px;
-	padding-left: 197px
-}
-
-.navigation li {
-	float: left;
-	text-align: center
-}
-
-.navigation li a {
-	display: block;
-	margin: 0 27px;
-	height: 80px;
-	line-height: 78px;
-	font-size: 18px;
-	letter-spacing: -0.03em;
-	color: #fff
-}
-
-.navi-sublist {
-	display: none;
-	z-index: 9000;
-	position: absolute;
-	padding-top: 19px
-}
-
-.navi-sublist.on {
-	display: block
-}
-
-.navi-sublist li {
-	float: none;
-	text-align: left
-}
-
-.navi-sublist li a {
-	display: block;
-	width: auto;
-	height: auto;
-	line-height: 34px;
-	font-size: 16px;
-	color: #3c3c3c;
-	letter-spacing: -0.03em
-}
-
-.navi-sublist li a:hover {
-	color: #00b956
-}
 
 #header.on .hgroup {
 	height: 79px;
@@ -291,6 +241,7 @@ a.nvalinks-rev:hover {
 	display: block;
 	clear: both
 } /*대체 뭘하려는걸까*/
+
 .sidebar {
 	float: left;
 	width: 240px;
@@ -330,13 +281,13 @@ a.nvalinks-rev:hover {
 	cursor: pointer
 }
 
-.leftMenu li a.on {
+.leftMenu li a:hover {
 	margin-top: -1px;
 	border-bottom-color: #f1c40f;
 	background-color: #f1c40f
 }
 
-.leftMenu li:first-child a.on {
+.leftMenu li:first-child a:hover {
 	margin-top: 0
 }
 
@@ -344,7 +295,7 @@ a.nvalinks-rev:hover {
 	border-top: 1px solid #e2e2e2
 }
 
-.leftMenu li.top a.on {
+.leftMenu li.top a:hover {
 	border-top-color: #f1c40f
 }
 
@@ -358,7 +309,7 @@ a.nvalinks-rev:hover {
 	background: url(./images/icons/left_menu_off.gif) no-repeat right center
 }
 
-.leftMenu li a.on span {
+.leftMenu li a:hover span {
 	background: url(./images/icons/left_menu_on.png) no-repeat right center;
 	color: #fff
 }
@@ -518,15 +469,19 @@ a.nvalinks-rev:hover {
 
 
 
+
+
+
 /*탑메뉴*/
 #topMenu { 
 height: 40px; 
 width: 60%; 
 float : left;
 margin-left : 20%;
-margin-top: 40px;
+margin-top: 25px;
 min-width: 500px;
 min-height: 40px;
+color: black;
 } 
 #topMenu ul { 
 list-style-type: none;
@@ -536,17 +491,19 @@ padding: 0px;
 #topMenu ul li {
 background-color: white;
 float: left; 
-line-height: 30px;
+line-height: 20px;
 vertical-align: middle;
 text-align: center;
 position: relative;
 margin-left: 30p%;
+font-size: 15px;
 }
 .menuLink, .submenuLink {
 text-decoration:none;
 display: block;
 width: 200px;
-font-size: 12px;
+color : black;
+font-size: 15px;
 font-weight: bold;
 font-family: "Trebuchet MS", Dotum;
 }
@@ -556,10 +513,10 @@ font-size: 1.2em;}
 
 .topMenuLi:hover .menuLink {
 color: white;
-background-color: #ffd700;
+background-color: #f1c40f;
 } 
 .submenuLink {
-color: #ffd700;
+color: #f1c40f;
 background-color: white;
 } 
 /* 좀 더 긴 메뉴 스타일 설정 */
@@ -573,12 +530,12 @@ transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되�
 -moz-transition: height .2s; /* (구버전 파이어폭스) */ 
 -o-transition: height .2s; /* (구버전 오페라) */ 
 } 
-/*#topMenu:hover .topMenuLi:hover .submenu {height: 180px;}  		한 메뉴당 하위메뉴 하나만*/
-#topMenu:hover .topMenuLi .submenu {height: 180px;}		/*메뉴 전체 드롭다운 	헤더 전체 드롭다운은 어떻게..*/
+#topMenu:hover .topMenuLi:hover .submenu {height: 180px;}  		/* 한 메뉴당 하위메뉴 하나만*/ 
+/* #topMenu:hover .topMenuLi .submenu {height: 180px;}		/*메뉴 전체 드롭다운 	헤더 전체 드롭다운은 어떻게..*/ 
 .submenu {background:white;}
 .submenuLink:hover {
 color: white;
-background-color: #ffd700;
+background-color: #f1c40f;
 } 
 
 
@@ -1834,8 +1791,6 @@ button::-moz-focus-inner {
 					<li><a href="#" class="submenuLink longLink">Lazencar란?</a></li> 
 					<li><a href="#" class="submenuLink longLink">이용안내</a></li> 
 					<li><a href="#" class="submenuLink longLink">요금안내</a></li> 
-					<li><a href="#" class="submenuLink longLink">후기</a></li> 
-					<li><a href="#" class="submenuLink longLink">공지사항</a></li> 
 					<li><a href="#" class="submenuLink longLink">위치</a></li> 
 				</ul> 
 					</li>
@@ -1845,6 +1800,7 @@ button::-moz-focus-inner {
 				<ul class="submenu"> 
 					<li><a href="#" class="submenuLink longLink">특가상품</a></li> 
 					<li><a href="#" class="submenuLink longLink">쿠폰받기</a></li> 
+					<li><a href="#" class="submenuLink longLink">후기</a></li> 
 				</ul> 
 					</li>
 				
@@ -1853,11 +1809,11 @@ button::-moz-focus-inner {
 				<ul class="submenu"> 
 					<li><a href="#" class="submenuLink longLink">1:1 문의</a></li> 
 					<li><a href="#" class="submenuLink longLink">자주찾는 질문</a></li> 
+					<li><a href="#" class="submenuLink longLink">공지사항</a></li> 
 				</ul> 
 					</li>
 			</ul> 
 		</nav>
-		
 				</div>
 
 			</div>
@@ -1876,26 +1832,20 @@ button::-moz-focus-inner {
 
 			<div class="content-wrap">
 
+
+
 				<div class="contentbox">
 					<!-- contentbox로 묶기 -->
+
+
+
 
 
 					<div class="bodystart">
 
 						<!-- bodystart 	=========================================컨텐츠 변경가능 영역!!================================================  -->
 
-						
-						<p>
-						새가 인생에 봄바람을 긴지라 만천하의 구할 같이, 것이다. 피고 미묘한 청춘의 영원히 따뜻한 소담스러운 뼈 만천하의 남는 있다. 우리의 속에 두손을 커다란 위하여, 위하여서, 황금시대다. 같지 이것은 그들에게 희망의 전인 위하여서. 꾸며 눈에 피가 소금이라 못할 길을 피고 봄바람이다. 풍부하게 스며들어 두손을 목숨을 있다. 소금이라 보는 피는 실로 온갖 방황하여도, 봄바람이다. 찾아다녀도, 원대하고, 수 따뜻한 있으랴? 피어나는 우리의 있음으로써 광야에서 커다란 구하지 그들은 방지하는 구하기 힘있다. 아니더면, 실로 보배를 하였으며, 우리 남는 원질이 천지는 아름답고 것이다. 이것을 끝까지 그들은 끓는다.
-
-						갑 가치를 힘차게 우는 쓸쓸하랴? 어디 할지라도 봄바람을 것이다. 피는 청춘 생명을 예수는 청춘의 일월과 바이며, 따뜻한 이 위하여서. 모래뿐일 같이, 생명을 그들에게 황금시대다. 두기 같이, 실현에 되려니와, 있는 구할 무한한 듣는다. 천고에 사라지지 구할 같지 얼마나 그들에게 있는 그들은 봄바람이다. 속잎나고, 끓는 이상의 노년에게서 위하여, 평화스러운 황금시대다. 크고 풀밭에 같이, 착목한는 힘있다. 그러므로 바이며, 용기가 불어 구하지 풍부하게 이것이야말로 천자만홍이 듣는다. 이것은 온갖 관현악이며, 하여도 밝은 피고, 있다. 모래뿐일 열락의 속에 가치를 설레는 그들의 목숨을 굳세게 사막이다.
-						
-						가치를 얼마나 가슴이 아름답고 약동하다. 피가 않는 만물은 청춘을 창공에 피가 그리하였는가? 위하여 되려니와, 이상 소담스러운 청춘을 만물은 심장의 꾸며 말이다. 가는 모래뿐일 우리는 대중을 듣는다. 더운지라 같으며, 얼마나 이상의 부패뿐이다. 착목한는 인생을 위하여서 투명하되 것이다. 무엇이 아름답고 꾸며 소금이라 하는 인간의 동산에는 뼈 이것이다. 없으면 같은 천고에 위하여서 장식하는 뜨거운지라, 굳세게 봄바람이다. 얼마나 있는 때에, 뜨고, 듣는다.
-						</p>
-						
-											
-						
-						
+		
 						<!-- // bodyend -->
 
 					</div>
