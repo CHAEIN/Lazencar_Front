@@ -61,14 +61,14 @@ transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1)}
 .sidebar {float:left;width:240px;padding-top:62px}
 .contentbox {float:right;width:750px}
 .contentbox01 {width:1000px}
-.left-tit {height:49px;line-height:33px;font-size:28px;font-weight:500;color:#00af56}
+.left-tit {height:49px;line-height:33px;font-size:28px;font-weight:500;color:#f1c40f}
 .left-tit.type01 {letter-spacing:-4px}
 .left-tit.type02 {height:82px}
 .leftMenu li a {display:block;height:48px;padding:0 20px;border-bottom:1px solid #e2e2e2;cursor:pointer}
-.leftMenu li a.on {margin-top:-1px;border-bottom-color:#00af56;background-color:#00af56}
+.leftMenu li a.on {margin-top:-1px;border-bottom-color:#f1c40f;background-color:#f1c40f}
 .leftMenu li:first-child a.on {margin-top:0}
 .leftMenu li.top a {border-top:1px solid #e2e2e2}
-.leftMenu li.top a.on {border-top-color:#00af56}
+.leftMenu li.top a.on {border-top-color:#f1c40f}
 .leftMenu li a span {display:block;height:48px;line-height:49px;font-size:16px;color:#4d4c4c;font-weight:500;background:url(../images/icons/left_menu_off.gif) no-repeat right center}
 .leftMenu li a.on span {background:url(../images/icons/left_menu_on.png) no-repeat right center;color:#fff}
 .side_sns {margin-top:60px;padding:0 0 20px 20px;border-bottom:1px solid #f0f0f0}
@@ -145,7 +145,7 @@ iframe[name='google_conversion_frame'] {float:left;height:0 !important;width:0 !
 .js_wrap .public_text_box b {display:inline-block;*display:inline;*zoom:1;width:16px;height:16px;line-height:16px;background:#e7e5e2;border-radius:100%;text-align:center}
 .js_wrap .public_text_box .span_wrap {padding-left:10px}
 .js_wrap .public_support_tit {padding-left:10px;background:url("../../images/common/green_bullet.gif") left center no-repeat}
-.js_wrap .coupon_title {padding-top:15px;border-top:2px solid #877b6c;font-weight:bold;font-size:20px;color:#00af56}
+.js_wrap .coupon_title {padding-top:15px;border-top:2px solid #877b6c;font-weight:bold;font-size:20px;color:#f1c40f}
 .js_wrap .wrap-coupon .coupon div:nth-child(odd) {clear:both}
 .js_wrap .wrap-coupon .coupon .coupon-list {padding-top:50px!important}
 .js_wrap .wrap-coupon .coupon .board .last .file_btn {display:inline-block;*display:inline;*zoom:1;width:84px;height:22px;margin:0px 2px;border:1px solid #e2e2e2;border-radius:2px;text-align:center}
@@ -172,6 +172,6 @@ iframe[name='google_conversion_frame'] {float:left;height:0 !important;width:0 !
 .js_wrap .contents_wrap .contents img {padding-bottom:20px}
 .js_wrap .contents_wrap .stit02 {margin-bottom:30px}
 .js_wrap .contents_wrap .contents .last_table_wrap {margin-bottom:20px}
-.js_wrap .contents_wrap .contents .okay_btn a {display:block;width:154px;height:30px;line-height:30px;margin:0 auto;background:#00af56;border-radius:2px;font-weight:bold;text-align:center;color:#fff}
+.js_wrap .contents_wrap .contents .okay_btn a {display:block;width:154px;height:30px;line-height:30px;margin:0 auto;background:#f1c40f;border-radius:2px;font-weight:bold;text-align:center;color:#fff}
 
 .mgb40{margin-bottom:40px}
