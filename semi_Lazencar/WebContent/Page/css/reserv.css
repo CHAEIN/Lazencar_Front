@@ -251,7 +251,7 @@
 
 /* 2017 01 12 wsg css*/
 .search-option li.type.on {
-	background:#00af56;
+	background:#f1c40f;
 	border-bottom:none;
 	height:71px;
 }
@@ -581,7 +581,7 @@
 	font-size:13px; line-height:18px;margin-bottom:5px; 
 }
 /* 2017 01 10 */.pop_locat_info span {
-	color:#00af56; font-weight:bold;
+	color:#f1c40f; font-weight:bold;
 }
 .pop_locat_search:after {content:""; display:block; clear:both;}
 .pop_locat_search input {
@@ -606,7 +606,7 @@
 	background:url("../images/reserv/blt_green.gif") 0 center no-repeat;
 	margin-left:20px;
 	font-size:14px;
-	color:#00af56;
+	color:#f1c40f;
 	font-weight:bold;
 }
 .pop_locat_favorite {
@@ -614,12 +614,12 @@
 	padding:13px 5px;
 	margin-top:10px;
 }
-/* 2017 01 10 */.pop_locat_favorite strong {font-size:14px; color:#00af56;}
+/* 2017 01 10 */.pop_locat_favorite strong {font-size:14px; color:#f1c40f;}
 .pop_locat_favorite ul {margin-top:8px;}
 .pop_locat_favorite ul li {margin-top:5px;}
 .pop_locat_favorite ul li:first-child {margin-top:0;}
 .pop_locat_favorite ul li a {display:block; color:#333;}
-/* 2017 01 10 */.pop_locat_favorite ul li a:hover {text-decoration:underline; color:#00af56;}
+/* 2017 01 10 */.pop_locat_favorite ul li a:hover {text-decoration:underline; color:#f1c40f;}
 .pop_locat_favorite p {
 	background-color:#eee;
 	color:#888;
@@ -964,7 +964,7 @@
 }
 .pop-tabmenu li:first-child a {border-left:1px solid #dbd6d4;}
 .pop-tabmenu li .on {
-	color:#00af56; 
+	color:#f1c40f; 
 	background-color:#f8f8f8;
 	height:29px;
 	border-bottom:none;
@@ -993,7 +993,7 @@
 	padding:15px 13px;
 	margin-top:5px;
 }
-.pop-map-cont .addr02 p {color:#00af56;}
+.pop-map-cont .addr02 p {color:#f1c40f;}
 .pop-map-cont .time {margin-top:10px;}
 .pop-map-cont .time span {
 	background:url(../images/icons/bullet_01.gif) no-repeat 0 7px;
@@ -1057,7 +1057,7 @@
 	font-size:18px;
 	padding-bottom:8px;
 	font-weight:bold;
-	border-bottom:2px solid #00af56;
+	border-bottom:2px solid #f1c40f;
 }
 .total-amount-box {
 	border-bottom:1px solid #e2e2e2; 
@@ -1137,7 +1137,7 @@
 .reserv-subtit {
 	background:url(../images/reserv/ico_subtit.gif) no-repeat 0 7px;
 	padding-left:15px;
-	color:#00af56;
+	color:#f1c40f;
 	font-weight:bold;
 	font-size:18px;
 	margin-top:60px;
@@ -1692,7 +1692,7 @@
 	background:url(../images/icons/ico_check02.gif) no-repeat 0 3px;
 	padding-left:25px;
 	font-size:15px;
-	color:#00af56;
+	color:#f1c40f;
 	margin-top:30px;
 }
 .txt-wrap03 {margin-top:16px;}
@@ -1953,8 +1953,8 @@
 .result-list li.on .reservNoti.time span {background:url(../images/reserv/ico_noti_02_on.png) no-repeat center bottom;}
 /* 2017 01 02 WSG */
 .reservNoti.now {
-	background-color:#00af56;
-	border:1px solid #00af56;
+	background-color:#f1c40f;
+	border:1px solid #f1c40f;
 	color:#fff;
 }
 /* // 2017 01 02 WSG */
@@ -2086,7 +2086,7 @@
 	color:#fff;
 	font-weight:bold;
 	border:1px solid #008c45;
-	background-color:#00af56;
+	background-color:#f1c40f;
 }
 
 .search-free-result .txt {
@@ -2461,8 +2461,8 @@
 	color:#fff;
 	font-size:13px;
 	text-align:center;
-	border:1px solid #00af56;
-	background:#00af56;
+	border:1px solid #f1c40f;
+	background:#f1c40f;
 }
 
 .pop_locat_list2 .pop_locat_ispossible li:first-child {margin-top:0;}
@@ -2615,13 +2615,13 @@
 }
 
 /* 예약조회 변경/결제 (2016-06-09) */
-.total-amount-01 .pay.em-col {color:#00af56;}
+.total-amount-01 .pay.em-col {color:#f1c40f;}
 
 /* 카드 프로모션 (2016-06-22) */
 .reserv-tbltype tr td.valign_selstyle .prom-txt li {width:250px;}
 .reserv-tbltype tr td.valign_selstyle .prom-txtbox {margin-top:5px;}
 .prom-txt a {display:block;}
-.prom-txt .col-grn {color:#00af56;}
+.prom-txt .col-grn {color:#f1c40f;}
 .prom-txt .col-org {color:#7b5dfd; font-weight:normal;}
 
 
@@ -2694,7 +2694,7 @@
 .carinfo-box .info_text{color:#767676; padding-right:10px; margin-right:10px; border-right:1px solid #e2e2e2;}
 .carinfo-box .info_text strong{padding-right:3px;}
 .carinfo-box .oil_icon{background:url(../images/icons/oil_icon.png) 0 0 no-repeat; padding-left:16px;}
-.carinfo-box .car_icon{background:url(../images/icons/car_icon.png) 0 0 no-repeat; padding-left:18px; border-right:0px; color:#00af56;}
+.carinfo-box .car_icon{background:url(../images/icons/car_icon.png) 0 0 no-repeat; padding-left:18px; border-right:0px; color:#f1c40f;}
 .carinfo-box .repair_icon{background:url(../images/icons/repair_icon.png) 0 0 no-repeat; padding-left:18px; border-right:0px;}
 .carinfo-box .newcar_icon {background:url(../images/icons/newcar_icon.png) 0 1px no-repeat; padding-left:16px; color:#b2359f;}
 .carinfo-box .away_icon{background:url(../images/icons/away_icon.png) 0 0 no-repeat; padding-left:16px;color:#0050ff;}
@@ -2703,14 +2703,14 @@
 /* 2017 01 12 wsg css */
 /* 실시간 페이지 좌측 네비*/.airport-box .airport-popup{width:88px; height:25px; line-height:25px; text-align:center; border:1px solid #d8d8d8; background:#fff; border-radius:2px; color:#767676; font-weight:bold; font-size:13px;} 
 /* 팝업 자세히 버튼 */.green-zone-wrap .detail_btn{width:44px; height:19px; text-align: center; line-height: 19px; color: #fff; background: #877b6c; display: block; border-radius: 2px; font-size: 12px;} 
-/* 차량조회 버튼 */.zone-search button{width:90px; height:26px; line-height:26px; color:#fff; background:#00af56; border-radius:2px; font-weight:bold;}
-/* 예약하기 버튼 */.map-zone-btn .map_green_btn{width:60px; height:26px; line-height:26px; text-align:center; color:#fff; background:#00af56; border-radius:2px; display:block; font-weight:bold;}
+/* 차량조회 버튼 */.zone-search button{width:90px; height:26px; line-height:26px; color:#fff; background:#f1c40f; border-radius:2px; font-weight:bold;}
+/* 예약하기 버튼 */.map-zone-btn .map_green_btn{width:60px; height:26px; line-height:26px; text-align:center; color:#fff; background:#f1c40f; border-radius:2px; display:block; font-weight:bold;}
 /* 예약하기 버튼 */.map-zone-btn .map_gray_btn{width:60px; height:26px; line-height:26px; text-align:center; color:#fff; background:#877b6c; border-radius:2px; display:block; font-weight:bold;}
 /* 이용안내,알림신청 버튼 */.reserv-btn .btn .info_btn {width:98px; height:38px; line-height:38px; text-align:center; box-shadow:1px 1px #d9d9d9; display:inline-block; *display:inline; *zoom:1; border:1px solid #d9d9d9; border-radius:4px; font-size:16px; font-weight:bold; color:#000;}
 /* 이용안내,알림신청 버튼 */.reserv-btn .btn .request_btn{width:100px; height:40px; line-height:40px; text-align:center; box-shadow:1px 1px #b9b9b9; display:inline-block; *display:inline; *zoom:1; background:#d9d9d9; border-radius:4px; font-size:16px; font-weight:bold; color:#000; color:#fff;}
 /* 실시간예약 이전 버튼 */.txt_result02 .box02 .btnListPrev{width:68px; height:30px; line-height:30px; display:block; display:block; border:1px solid #d9d9d9; border-radius:4px; color:#767676; font-weight:bold;}
 /* 실시간예약 이전 버튼 */.txt_result02 .box02 .btnListPrev img{padding:10px 0px; padding-right:5px;}
-/* 실시간예약 현재 지도에서 검색 버튼*/.now_search_btn{width:170px; height:40px; line-height:40px; background:#00af56; display:block; color:#fff!important; font-size:14px; font-weight:bold;}
+/* 실시간예약 현재 지도에서 검색 버튼*/.now_search_btn{width:170px; height:40px; line-height:40px; background:#f1c40f; display:block; color:#fff!important; font-size:14px; font-weight:bold;}
 /* 실시간예약 현재 지도에서 검색 버튼*/.now_search_btn img{padding:10px;}
 
 /* 2017 01 18 */
@@ -2739,7 +2739,7 @@
 .kt_wrap .kt_coupon_wrap .coupon_link{float:right;}
 .kt_wrap .kt_coupon_wrap .coupon_link a{height:29px; line-height:29px;}
 .reserv-subtit02{color:#3c3c3c!important;}
-.txt-wrap03 span{color:#00af56; font-weight:bold;}
+.txt-wrap03 span{color:#f1c40f; font-weight:bold;}
 /* // 2017 01 18 KT*/
 
 /*금연서약*/

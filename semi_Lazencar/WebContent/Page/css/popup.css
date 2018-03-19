@@ -906,7 +906,7 @@ p.bul-dot {
 }
 .cancel-txt-box .title {
 	font-size:18px;
-	color:#00af56;	
+	color:#f1c40f;	
 	font-weight:bold;
 	padding-top:30px;
 	padding-bottom:5px;
@@ -923,7 +923,7 @@ p.sns-title {
 	padding:30px 0 0 16px; 
 	background:url("../images/common/blt01.gif") 0 35px no-repeat; 
 	font-size:16px; 
-	color:#00af56; 
+	color:#f1c40f; 
 	font-weight:bold;
 }
 .tbl-sns th,
@@ -1401,7 +1401,7 @@ p.sns-title {
 	display:inline-block;
 	height:64px;
 	line-height:64px;
-	background-color:#00af56;
+	background-color:#f1c40f;
 	color:#fff;
 	font-weight:bold;
 	font-size:16px;
@@ -1620,7 +1620,7 @@ a.btn_xls_down {display:inline-block;}
 .boardList08 td {height:30px; font-size:13px; text-align:center; line-height:30px; box-sizing:border-box;}
 
 .alert_txt_group02 {height:135px; margin:10px 0; padding:47px 25px 20px 150px; font-size:14px; font-weight:bold; color:#767676; background:#f6f6f6 url(../images/icons/icon_join05.png) no-repeat 25px 50%; box-sizing:border-box;}
-.alert_txt_group02 strong {color:#00af56;}
+.alert_txt_group02 strong {color:#f1c40f;}
 /* (2015-12-16) */
 .ipt-wrap {overflow:hidden;}
 .ipt-wrap span {font-size:13px; line-height:27px;}
@@ -1673,7 +1673,7 @@ a.btn_xls_down {display:inline-block;}
 .layer_area .find_box01 dl dd.re_d > span {display:inline-block; line-height:27px; width:190px;}
 .layer_area .find_box01 .notice01, .layer_area .find_box01 .notice01_1 {padding-bottom:0; color:#767676;}
 .layer_area .find_box01_1 {margin-top:40px; padding:20px 0 0 0; background:url('../images/common/dot_line01.gif') repeat-x left top; color:#767676;}
-.layer_area .find_box01_1 .result {margin:10px 0; padding:15px 10px; background:#f6f6f6; color:#00af56;}
+.layer_area .find_box01_1 .result {margin:10px 0; padding:15px 10px; background:#f6f6f6; color:#f1c40f;}
 .layer_area .find_box01_2 {margin-top:10px;}
 .layer_area .find_box01_2 .notice01, .layer_area .find_box01_2 .notice01_1 {padding-bottom:0;}
 

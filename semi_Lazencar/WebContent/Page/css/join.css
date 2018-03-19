@@ -154,7 +154,7 @@
 
 .join-index-txt p {
 	font-size:18px;
-	color:#00af56;
+	color:#f1c40f;
 	font-weight:bold;
 	background:url("../images/common/blt01.gif") left 50% no-repeat;
 	padding-left:15px;
@@ -217,7 +217,7 @@
 
 .join-select-wrap li h4 {
 	font-size:22px;
-	color:#00af56;
+	color:#f1c40f;
 	font-weight:bold;
 	text-align:center;
 }
@@ -270,7 +270,7 @@ ul.ck-txt li {
 	padding-left:15px;
 	font-weight:bold;
 	font-size:18px;
-	color:#00af56;
+	color:#f1c40f;
 	background:url("../images/common/blt01.gif") left 50% no-repeat;
 	margin-bottom:15px;
 }
@@ -432,7 +432,7 @@ a.join-terms-link {text-decoration:underline}
 	top:240px;
 }
 .card-register-box p.txt-strong {
-	color:#00af56;
+	color:#f1c40f;
 	font-size:14px;
 	margin-bottom:10px;
 }
@@ -1087,7 +1087,7 @@ a.join-terms-link {text-decoration:underline}
 	min-height:240px;
 	padding:34px 20px 45px 20px;
 	border:1px solid #e2e2e2;
-	border-top:2px solid #00af56;
+	border-top:2px solid #f1c40f;
 	background:url("../images/join/bg_join_finish.gif") 115px 35px no-repeat;
 	margin-bottom:20px;
 }
@@ -1097,7 +1097,7 @@ a.join-terms-link {text-decoration:underline}
 /* 2016 wsg 수정 */.join-finish-box02 p.title {
 	font-size:30px;
 	font-weight:bold;
-	color:#00af56;
+	color:#f1c40f;
 	padding:15px 0 15px 0;
 }
 .join-finish-box02 .stxt {
@@ -1192,7 +1192,7 @@ a.join-terms-link {text-decoration:underline}
 .joinapp_section_wrap .section02 .last{padding-left:20px; font-size:16px;}
 /*2016 wsg 수정*/.joinapp_section_wrap .section02 .section0201_top{padding:15px 0px; padding-left:20px; margin-bottom:10px; background:#f6f6f6;}
 .joinapp_section_wrap .section02 .setcion0202_top{padding:15px 0px; padding-left:20px; background:#f8f8f8;}
-.joinapp_section_wrap .btnbox-wrap{width:180px; height:30px; margin:0 auto; background:#00af56; text-align:center; margin-top:20px;}
+.joinapp_section_wrap .btnbox-wrap{width:180px; height:30px; margin:0 auto; background:#f1c40f; text-align:center; margin-top:20px;}
 .joinapp_section_wrap .btnbox-wrap .btn_type02{font-size:14px; color:#fff; line-height:29px; font-weight:bold;}
 .w430 .pop_view_none .pop_view_con input{vertical-align:top; padding:7px 0px;}
 /* 2016 wsg 수정*/.w430 .pop_view_none{padding:0px; background:#f6f6f6;}

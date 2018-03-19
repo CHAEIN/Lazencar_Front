@@ -73,7 +73,7 @@
 h4.review-title {
 	background:url("../images/event/bul_best.png") left 50% no-repeat;
 	padding-left:16px;
-	color:#00af56;
+	color:#f1c40f;
 	font-size:18px;
 	font-weight:bold;
 }
@@ -105,7 +105,7 @@ h4.review-title {
 }
 .review-id span {
 	font-size:13px;
-	color:#00af56;
+	color:#f1c40f;
 	font-weight:bold;
 	padding-left:9px;
 }
@@ -120,7 +120,7 @@ h4.review-title {
 	height:110px;
 	border-right:1px solid #e2e2e2;
 	border-left:1px solid #e2e2e2;
-	border-bottom:3px solid #00af56;
+	border-bottom:3px solid #f1c40f;
 	position:relative;
 }
 .review-best .top {
@@ -164,7 +164,7 @@ h4.review-title {
 }
 .paging-best em {
 	font-weight:bold;
-	color:#00af56;
+	color:#f1c40f;
 }
 .paging-best a.pre {
 	vertical-align:middle;
@@ -512,7 +512,7 @@ p.user-total {
 	margin:60px 0 10px 0;
 }
 p.user-total span {
-	color:#00af56;
+	color:#f1c40f;
 }
 
 .praise-allwrap {
@@ -1003,7 +1003,7 @@ p.user-total span {
 .lotte_member_tit {color:#666; font-size:18px; text-align:left;}
 .lotte_member_submit {margin-top:10px;}
 .lotte_member_submit button {
-	background-color:#00af56;
+	background-color:#f1c40f;
 	color:#fff;
 	height:30px;
 	line-height:30px;
@@ -1060,11 +1060,11 @@ p.user-total span {
 .lotte_certify_wrap.public li.certi_03 p {background-position:center 31%;}
 
 /* 이벤트 추가 (2015-12-17) */
-.col-grn {color:#00af56; font-weight:bold;}
+.col-grn {color:#f1c40f; font-weight:bold;}
 .col-grn.fwnormal {font-weight:normal;}
 /* 2017 01 10 */.col-org {color:#7b5dfd; font-weight:bold;}
 .col-org.fwnormal {font-weight:normal;}
 
 /* 2017 01 09 */
-.green_down{background:#00af56; border-radius:2px;} 
+.green_down{background:#f1c40f; border-radius:2px;} 
 .gray_down{background:#bfbebe; border-radius:2px;} 

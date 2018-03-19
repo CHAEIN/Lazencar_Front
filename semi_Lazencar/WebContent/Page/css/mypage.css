@@ -2,10 +2,10 @@
 
 
 /* index */
-.mem_infobox01 {overflow:hidden; border:1px solid #00af56; border-top:2px solid #00af56;}
+.mem_infobox01 {overflow:hidden; border:1px solid #f1c40f; border-top:2px solid #f1c40f;}
 .mem_infobox01 .titbox {overflow:hidden; padding:10px 20px; border-bottom:1px solid #e2e2e2; background-color:#f8f8f8; font-size:14px; line-height:1.2px;}
 .mem_infobox01 .titbox .tit {float:left; width:530px; margin-top:4px; font-weight:bold;}
-.mem_infobox01 .titbox .tit .point{color:#00af56;}
+.mem_infobox01 .titbox .tit .point{color:#f1c40f;}
 .mem_infobox01 .titbox .btn {float:right; width:170px; text-align:right;}
 
 .mem_infobox01 .cont {overflow:hidden; padding:20px 19px 15px 19px; clear:both;}
@@ -23,7 +23,7 @@
 .mem_infobox01 .cont .infobox li .txtbox dd .txtbox {margin-top:10px; font-size:13px; letter-spacing:-1px;}
 
 .mem_infobox01 .cont .infobox li .txtbox dt .level_img {display:inline-block; margin:0 0 0 4px; vertical-align:top; font-size:0; line-height:0;}
-.mem_infobox01 .cont .infobox li .txtbox dt .level_txt {display:inline-block; color:#00af56; vertical-align:top;}
+.mem_infobox01 .cont .infobox li .txtbox dt .level_txt {display:inline-block; color:#f1c40f; vertical-align:top;}
 .mem_infobox01 .cont .infobox li .txtbox dt .btn01 {display:inline-block; margin:-3px 0 0 4px; vertical-align:top;}
 .mem_infobox01 .cont .infobox li .txtbox dd .notice {padding:10px 0 0 20px; background: url("../images/icons/icon_notice.gif") left 11px no-repeat; font-size:13px; line-height:1.2; letter-spacing:-1px; vertical-align:top;}
 .mem_infobox01 .cont .infobox li .txtbox dd .icobox {margin-top:12px; font-size:14px; line-height:1.2;}
@@ -235,7 +235,7 @@
 	margin-top:35px;
 	padding-left:18px;
 	font-size:18px;
-	color:#00af56;
+	color:#f1c40f;
 	font-weight:bold;
 	background: url("../images/common/blt01.gif") left 6px no-repeat;	
 }
@@ -324,7 +324,7 @@ td.charges-penalty {
 	margin-top:35px;
 	padding-left:18px;
 	font-size:18px;
-	color:#00af56;
+	color:#f1c40f;
 	font-weight:bold;
 	background: url("../images/common/blt01.gif") left 6px no-repeat;		
 }
@@ -525,7 +525,7 @@ td.charges-penalty {
 /* 2017 01 10 */.membercard-edit .tmoney-num li.title {
 	font-size:23px;
 	font-weight:bold;
-	color:#00af56;
+	color:#f1c40f;
 }
 .membercard-edit .tmoney-num li.stxt {
 	font-size:13px;
@@ -564,7 +564,7 @@ td.charges-penalty {
 	font-size:13px;
 }
 /* 2017 01 10 */.membercard-edit .cardtype-wrap dd span {
-	color:#00af56;	
+	color:#f1c40f;	
 }
 
 .membercard-edit .cardtype-wrap dl.cardtype01 {
@@ -640,7 +640,7 @@ td.charges-penalty {
 .use_area .f_right  .menu_box li b {display:block; margin-bottom:5px; color:#333333;}
 .use_area .f_right  .menu_box li.list_on {background-color:#fff;}
 .use_area .f_right  .menu_box li.list_on a,
-.use_area .f_right  .menu_box li.list_on b {color:#00af56;}
+.use_area .f_right  .menu_box li.list_on b {color:#f1c40f;}
 
 
 
@@ -737,7 +737,7 @@ form > .tabmenu_btngroup.stit_btngroup {margin-top:-39px;}/* 2015-12-31 */
 
 /* 2015-12-30 */
 .bill_inbox {padding:55px 65px 60px 65px; border:1px solid #dbdbdb;}
-.subtit-01 {color:#00af56; font-size:30px; text-align:center;}
+.subtit-01 {color:#f1c40f; font-size:30px; text-align:center;}
 .subtit-02 {font-size:16px; font-weight:bold; margin-top:25px;}
 .subtit-03 {font-size:16px; font-weight:bold; margin-top:45px; color:#333;}
 
@@ -794,7 +794,7 @@ form > .tabmenu_btngroup.stit_btngroup {margin-top:-39px;}/* 2015-12-31 */
 #pop_pass_section_wrap .btn_wrap{overflow:hidden; margin-bottom:0px;}
 #pop_pass_section_wrap .btn_wrap a{display:block; color:#fff; text-align:center; height:40px; line-height:39px; font-weight:bold;}
 #pop_pass_section_wrap .btn_wrap .okay_btn{width:49%; float:left;}
-#pop_pass_section_wrap .btn_wrap .okay_btn a{background:#00af56; font-size:15px; border:1px solid #d9d9d9; border-radius:2px; background-color:#00af56;}
+#pop_pass_section_wrap .btn_wrap .okay_btn a{background:#f1c40f; font-size:15px; border:1px solid #d9d9d9; border-radius:2px; background-color:#f1c40f;}
 #pop_pass_section_wrap .btn_wrap .close_btn{width:49%; float:right;}
 #pop_pass_section_wrap .btn_wrap .close_btn a{background:#838383; font-size:15px; border:1px solid #c3c3c3; border-radius:2px; background-color:#aaaaaa;}
 
@@ -806,10 +806,10 @@ form > .tabmenu_btngroup.stit_btngroup {margin-top:-39px;}/* 2015-12-31 */
 
 .black_border_btn{font-size:12px; width:54px; height:20px; line-height:20px; display:block; border:1px solid #b0b0b0; color:#888888!important; font-weight:bold; text-align:center; border-radius:2px;}  
 .l_black_border_btn{font-size:12px; width:54px; height:38px; display:block; border:1px solid #b0b0b0; color:#888888; font-weight:bold; padding-top:2px;} 
-.green_border_btn{font-size:12px; width:54px; height:20px; line-height:20px; display:block; border:1px solid #00af56; color:#00af56; font-weight:bold; text-align:center; border-radius:2px;}
+.green_border_btn{font-size:12px; width:54px; height:20px; line-height:20px; display:block; border:1px solid #f1c40f; color:#f1c40f; font-weight:bold; text-align:center; border-radius:2px;}
 .blue_border_btn{font-size:12px; width:54px; height:20px; line-height:20px; display:block; border:1px solid #5486c5; color:#5486c5!important; font-weight:bold; border-radius:2px;}
 
-.green_bg_btn{font-size:12px; width:46px; height:24px; line-height:24px; color:#fff!important; background:#00af56; margin:0 auto; border-radius:2px; font-weight:bold; text-align:center;}
+.green_bg_btn{font-size:12px; width:46px; height:24px; line-height:24px; color:#fff!important; background:#f1c40f; margin:0 auto; border-radius:2px; font-weight:bold; text-align:center;}
 .gray_bg_btn{font-size:12px; width:46px; height:24px; line-height:24px; color:#fff!important; background:gray; margin:0 auto; border-radius:2px; font-weight:bold; text-align:center;}
 .red_bg_btn{font-size:12px; width:46px; height:24px; line-height:24px; color:#fff!important; background:#f25947; margin:0 auto; border-radius:2px; font-weight:bold; text-align:center;}
 .yellow_bg_btn{font-size:12px; width:46px; height:24px; line-height:24px; color:#fff!important; background:#f68e2c; margin:0 auto; border-radius:2px; font-weight:bold; text-align:center;}

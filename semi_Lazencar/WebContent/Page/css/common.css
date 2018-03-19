@@ -235,7 +235,7 @@ button::-moz-focus-inner {
 /*2016 11 11*/
 .layer_area .btn.btn_grm span{width:120px;}
 .layer_area .join_pop_text{padding-bottom:10px;}
-.layer_area .join_pop_text span{color:#00af56;}
+.layer_area .join_pop_text span{color:#f1c40f;}
 .layer_area .pb5{padding-bottom:5px;}
 .layer_area .textin10{text-indent:10px;}
 .layer_area .btn_group{padding-top:20px;}
@@ -243,14 +243,14 @@ button::-moz-focus-inner {
 .layer-wrap01 .layer-cont .id_repetition div input{text-indent:10px;}
 
 /* 2016 12 01 WSG CSS -LJS- */
-.color00af56{color:#00af56!important;} /*진한 초록색*/
+.colorf1c40f{color:#f1c40f!important;} /*진한 초록색*/
 .color3c3c3c{color:#3c3c3c!important;} /*대제목 = 진한 검정색*/
 .color767676{color:#767676!important;} /*컨텐츠 = 연한 검정색 */
 .bg877b6c{background:#877b6c!important;}
 .bde2e2e2{border:1px solid #e2e2e2!important;}
 .bgf6f6f6{background:#f6f6f6!important;}
 .bdre2e2e2{border-right:1px solid #e2e2e2!important;}
-.bdn00af56{border-bottom:1px solid #00af56;}
+.bdnf1c40f{border-bottom:1px solid #f1c40f;}
 
 .blind {position:absolute;left:-10000px;top:auto;height:1px;overflow:hidden}
 

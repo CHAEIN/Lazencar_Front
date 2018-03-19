@@ -35,7 +35,7 @@
 	border-right:1px solid #e6e6e6;
 }
 .question-tab li.on a {
-	background-color:#00af56;
+	background-color:#f1c40f;
 	color:#fff;
 	border-top:1px solid #008c45;
 	border-bottom:1px solid #008c45;
@@ -99,7 +99,7 @@
 .question-wrap dl.on .bul_q span{
 	padding-left:35px;
 	background:url("../images/icons/icon_q.png") 0 50% no-repeat;
-	color:#00af56;
+	color:#f1c40f;
 }
 .question-wrap dl .bul_q span{
 	padding-left:35px;
@@ -120,7 +120,7 @@
 }
 .question-wrap dl.on,
 .question-wrap dl.on a {
-	color:#00af56;
+	color:#f1c40f;
 }
 
 /* 자주찾는질문 가입승인 */
@@ -178,11 +178,11 @@
 }
 .notice-list tr.notice td,
 .notice-list tr.notice td a{
-	color:#00af56;
+	color:#f1c40f;
 	font-weight:bold;
 }
 .notice-list tr.notice td a:hover{
-	color:#00af56;
+	color:#f1c40f;
 	font-weight:bold;
 }
 
